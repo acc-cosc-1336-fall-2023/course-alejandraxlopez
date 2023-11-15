@@ -1,5 +1,11 @@
 
-from tests.homework.i_dictionaries_sets import tests_dictionaries_and_sets
+import unittest
+'''
+has the test functions
+''' 
 
-suite = unittest.TestLoader().loadTestsFromModule(tests_dictionaries_and_sets)
-unittest.TextTestRunner(verbosity=2).run(suite)
+
+from tests.homework.j_classes import tests_classes
+
+suite = unittest.TestLoader().loadTestsFromModule(tests_classes)
+unittest.TextTestRunner(verbosity=2).run(suite) 
